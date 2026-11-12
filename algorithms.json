@@ -4085,6 +4085,13 @@
           "argumentName": "id",
           "type": "String",
           "description": "The Classifier's Asset ID."
+        },
+        {
+          "argumentName": "version",
+          "type": "Long",
+          "description": "The version of the asset. -1 signifies the latest version.",
+          "optional": true,
+          "defaultValue": -1
         }
       ]
     },
